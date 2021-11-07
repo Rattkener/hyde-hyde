@@ -8,6 +8,7 @@
 	{{ with .Site.Params.social.hackthebox }}
 	<a href="https://www.hackthebox.eu/home/users/profile/{{.}}" rel="me"><i class="fas fa-cube" aria-hidden="true"></i></a>
 	{{ end }}
+	{{ with .Site.Para
 	{{ with .Site.Params.social.facebook }}
 	<a href="https://facebook.com/{{.}}" rel="me"><i class="fab fa-facebook-f"></i></a>
 	{{ end }}
